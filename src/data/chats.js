@@ -1,0 +1,223 @@
+const chatData = [
+    {
+      id: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2-8RJHlxE6JLYzqSAMplB4YlR1H4z2",
+      users: [
+        {
+          image: "https://i.pravatar.cc/150?img=1",
+          status: "online",
+          fullName: "Ayaan Khan",
+          uid: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2",
+          lastSeen: { seconds: 1738365439, nanoseconds: 217000000 },
+          email: "ayaan.khan@example.in",
+          username: "ayaank",
+        },
+        {
+          email: "faizan.shaikh@example.in",
+          fullName: "Faizan Shaikh",
+          lastSeen: { seconds: 1738349756, nanoseconds: 282000000 },
+          image: "https://i.pravatar.cc/150?img=2",
+          status: "online",
+          username: "faizans",
+          uid: "8RJHlxE6JLYzqSAMplB4YlR1H4z2",
+        },
+      ],
+      lastMessageTimestamp: { seconds: 1738365467, nanoseconds: 676000000 },
+      lastMessage: "Hey there, what's good brother?",
+    },
+    {
+      id: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2-F46W8FgxaQezayygointMyOUqbw2",
+      lastMessage: "Please help me fix this bug",
+      users: [
+        {
+          lastSeen: { seconds: 1738365439, nanoseconds: 217000000 },
+          email: "ayaan.khan@example.in",
+          fullName: "Ayaan Khan",
+          status: "online",
+          image: "https://i.pravatar.cc/150?img=1",
+          username: "ayaank",
+          uid: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2",
+        },
+        {
+          email: "imran.siddiqui@example.in",
+          fullName: "Imran Siddiqui",
+          status: "online",
+          uid: "F46W8FgxaQezayygointMyOUqbw2",
+          username: "imrans",
+          image: "https://i.pravatar.cc/150?img=3",
+          lastSeen: { seconds: 1738350118, nanoseconds: 330000000 },
+        },
+      ],
+      lastMessageTimestamp: { seconds: 1738365880, nanoseconds: 877000000 },
+    },
+    {
+      id: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2-Fm8XOlhZzmSpzf2o3pppL8ybyj03",
+      lastMessageTimestamp: { seconds: 1738365953, nanoseconds: 696000000 },
+      lastMessage: "Tarik my guy, what's up gee?!",
+      users: [
+        {
+          status: "online",
+          email: "ayaan.khan@example.in",
+          image: "https://i.pravatar.cc/150?img=1",
+          uid: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2",
+          username: "ayaank",
+          lastSeen: { seconds: 1738365439, nanoseconds: 217000000 },
+          fullName: "Ayaan Khan",
+        },
+        {
+          email: "tarik.ansari@example.in",
+          uid: "Fm8XOlhZzmSpzf2o3pppL8ybyj03",
+          username: "tarika",
+          status: "online",
+          image: "https://i.pravatar.cc/150?img=4",
+          lastSeen: { seconds: 1738364834, nanoseconds: 970000000 },
+          fullName: "Tarik Ansari",
+        },
+      ],
+    },
+    {
+      id: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2-GxVkO3aFOocvEhy9MFIPaY6e4hp2",
+      users: [
+        {
+          email: "ayaan.khan@example.in",
+          image: "https://i.pravatar.cc/150?img=1",
+          status: "online",
+          username: "ayaank",
+          fullName: "Ayaan Khan",
+          lastSeen: { seconds: 1738365439, nanoseconds: 217000000 },
+          uid: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2",
+        },
+        {
+          fullName: "Zaid Qureshi",
+          email: "zaid.qureshi@example.in",
+          username: "zaidq",
+          uid: "GxVkO3aFOocvEhy9MFIPaY6e4hp2",
+          lastSeen: { seconds: 1738349764, nanoseconds: 80000000 },
+          status: "online",
+          image: "https://i.pravatar.cc/150?img=5",
+        },
+      ],
+      lastMessageTimestamp: { seconds: 1738366062, nanoseconds: 24000000 },
+      lastMessage: "Sup ma'am? How are you?",
+    },
+    {
+      id: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2-K9aRITWcalTgW9mlMs3xq2TScFD2",
+      lastMessage: "Please message me when you see this message",
+      lastMessageTimestamp: { seconds: 1738366099, nanoseconds: 411000000 },
+      users: [
+        {
+          fullName: "Ayaan Khan",
+          uid: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2",
+          username: "ayaank",
+          image: "https://i.pravatar.cc/150?img=1",
+          status: "online",
+          lastSeen: { seconds: 1738365439, nanoseconds: 217000000 },
+          email: "ayaan.khan@example.in",
+        },
+        {
+          fullName: "Gavin Khan",
+          email: "gavin.khan@example.in",
+          uid: "K9aRITWcalTgW9mlMs3xq2TScFD2",
+          username: "gavink",
+          lastSeen: { seconds: 1738349900, nanoseconds: 870000000 },
+          status: "online",
+          image: "https://i.pravatar.cc/150?img=6",
+        },
+      ],
+    },
+    {
+      id: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2-XK9T4BCBTiN78aUPH1wTTjmSz3S2",
+      lastMessage: "Faith!!!!!!!!!!!!!!! It's been a long time bro",
+      users: [
+        {
+          lastSeen: { seconds: 1738365439, nanoseconds: 217000000 },
+          uid: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2",
+          email: "ayaan.khan@example.in",
+          status: "online",
+          image: "https://i.pravatar.cc/150?img=1",
+          fullName: "Ayaan Khan",
+          username: "ayaank",
+        },
+        {
+          username: "faizs",
+          fullName: "Faiz Inam",
+          lastSeen: { seconds: 1738349775, nanoseconds: 649000000 },
+          uid: "XK9T4BCBTiN78aUPH1wTTjmSz3S2",
+          image: "https://i.pravatar.cc/150?img=8",
+          status: "online",
+          email: "faiz.inam@example.in",
+        },
+      ],
+      lastMessageTimestamp: { seconds: 1738366181, nanoseconds: 736000000 },
+    },
+    {
+      id: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2-cL4ieLzN3jY0BkU4q8LGGLnSxFH3",
+      lastMessage: "Hi there",
+      users: [
+        {
+          lastSeen: {
+            seconds: 1738412252,
+            nanoseconds: 587000000,
+          },
+          fullName: "Ayaan Khan",
+          username: "ayaank",
+          status: "online",
+          email: "ayaan.khan@example.in",
+          image: "https://i.pravatar.cc/150?img=1",
+          uid: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2",
+        },
+        {
+          username: "zaidm",
+          lastSeen: {
+            seconds: 1738368276,
+            nanoseconds: 577000000,
+          },
+          email: "zaid.mirza@example.in",
+          status: "online",
+          image: "https://i.pravatar.cc/150?img=10",
+          fullName: "Zaid Mirza",
+          uid: "cL4ieLzN3jY0BkU4q8LGGLnSxFH3",
+        },
+      ],
+      lastMessageTimestamp: {
+        seconds: 1738414982,
+        nanoseconds: 111000000,
+      },
+    },
+    {
+      id: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2-idezqqMvT2Y0elVU88e5mUXpkCr2",
+      lastMessage: "Awesome! Let’s make this AI startup happen. 🚀",
+      users: [
+        {
+          fullName: "Ayaan Khan",
+          image: "https://i.pravatar.cc/150?img=1",
+          uid: "6BjHfKIogUdLA1ZEJ5mtdILjZFr2",
+          status: "online",
+          email: "ayaan.khan@example.in",
+          lastSeen: {
+            seconds: 1738412252,
+            nanoseconds: 587000000,
+          },
+          username: "ayaank",
+        },
+        {
+          lastSeen: {
+            seconds: 1738366768,
+            nanoseconds: 896000000,
+          },
+          image: "https://i.pravatar.cc/150?img=11",
+          uid: "idezqqMvT2Y0elVU88e5mUXpkCr2",
+          email: "iklash.khan@example.in",
+          status: "online",
+          username: "iklashk",
+          fullName: "Iklash Khan",
+        },
+      ],
+      lastMessageTimestamp: {
+        seconds: 1738417042,
+        nanoseconds: 384000000,
+      },
+    },
+  ];
+  
+  export default chatData;
+  
